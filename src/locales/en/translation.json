@@ -1,0 +1,140 @@
+{
+  "banner": {
+    "title": "I am the Little Moon",
+    "subtitle": "A moon that lights up  the children's world"
+  },
+  "application": {
+    "title": "Little Moon World",
+    "subtitle": "A Journey into Imagination and Values",
+    "description": "An educational and entertainment platform offering engaging and meaningful content for children. Enjoy exciting animated series, educational stories, and fun songs!"
+  },
+  "about": {
+    "title": "Little Moon World",
+    "subtitle": "Who are we?",
+    "description": "At 'Little Moon World', we have been working for years to provide educational and entertaining content that inspires children and enhances their positive values. Our goal is to blend knowledge with fun to deliver a fruitful experience for children!",
+    "vision": {
+      "title": "Our Vision",
+      "description": "We aim to provide content that helps build children's character and develop their skills."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to create a fun educational environment for children that enhances moral and social values."
+    },
+    "goal": "We strive to create an enjoyable educational experience for children, encouraging them to explore and innovate, helping them build a strong foundation of values and knowledge.",
+    "experience": "Years of Experience",
+    "features": {
+      "educational_content": "Developing engaging educational content",
+      "entertainment_experience": "Providing fun entertainment experiences",
+      "positive_values": "Promoting positive values for children",
+      "safe_environment": "Designing a safe and suitable environment for kids"
+    }
+  },
+  "features": {
+    "stories": {
+      "title": "Little Moon Stories",
+      "description": "An enjoyable journey into educational stories that nurture imagination and reinforce values."
+    },
+    "series": {
+      "title": "Animated Series",
+      "description": "Exciting adventures and beloved characters provide entertaining and educational content for children."
+    },
+    "songs": {
+      "title": "Songs",
+      "description": "Beautiful melodies and meaningful lyrics make learning more fun and easy."
+    },
+    "games": {
+      "title": "Games",
+      "description": "Interactive and fun experiences that help children develop their skills in an enjoyable way."
+    },
+    "quran": {
+      "title": "Holy Quran",
+      "description": "A well-crafted and engaging approach to teaching children Quran recitation."
+    }
+  },
+  "services": {
+    "title": "What makes our app special?",
+    "description": "We provide educational and entertaining content for children. Discover our diverse services such as animated series, stories, and innovative lessons.",
+    "features": {
+      "children_experience": {
+        "title": "Unique Experience for Children",
+        "description": "We offer engaging entertainment content that ensures a rich experience for children."
+      },
+      "easy_app": {
+        "title": "Easy-to-Use App",
+        "description": "Download the app now and start exploring the Little Moon World."
+      },
+      "education_entertainment": {
+        "title": "Education & Entertainment",
+        "description": "Content that combines education and fun for children in an engaging way."
+      }
+    }
+  },
+  "pricing": {
+    "plans": "Pricing Plans",
+    "choose_plan": "Choose the Right Plan for You",
+    "description": "Select the plan that suits your needs and enjoy exclusive benefits designed for the perfect experience.",
+    "monthly": {
+      "title": "Monthly Plan",
+      "price": "7",
+      "unit": "month"
+    },
+    "annual": {
+      "title": "Annual Plan",
+      "price": "70",
+      "unit": "year"
+    },
+    "features": {
+      "unlimited_access": "Unlimited access to the library",
+      "support": "24/7 customer support"
+    },
+    "subscribe_now": "Subscribe Now",
+    "best_value": "Best Value"
+  },
+  "aboutSection": {
+    "title": "Little Moon World",
+    "history": "Little Moon was founded in the fourth month of the year 2000.\n\nThe birth of Little Moon was like a full moon that lights up children's paths, spreading its gentle smile on the lips of all children. Not only that, but it also offers a red flower as a symbol of love and connection with the minds of young generations.\n\nLittle Moon World is involved in producing animated films, story series aimed at children and teenagers, and educational and cultural programs automated through computers and other products designed for children and youth."
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "location": "Istanbul, Türkiye",
+    "about_us": "About Us",
+    "about": "Who We Are",
+    "features": "What Makes Our App Special?",
+    "pricing": "Pricing",
+    "about_company": "About Our Company",
+    "company_description": "We provide exceptional educational and entertainment content for children, blending fun and knowledge in a unique way.",
+    "company_logo_alt": "Little Moon World Logo",
+    "copyright": "Copyright",
+    "all_rights_reserved": "All rights reserved.",
+    "developed_by": "Developed by"
+  },
+  "categories_section": {
+    "title": "A lot of fun and benefit",
+    "card1": "Educational and meaningful stories",
+    "card2": "Cartoons for children",
+    "card3": "Sing with me"
+  },
+  "policyPage": {
+    "pageTitle": "Terms & Policies",
+    "privacy": {
+      "title": "🛡️ Privacy Policy",
+      "p1": "At <strong>Little Moon World</strong>, we are fully committed to protecting the privacy of our users, especially children. We understand the importance of providing a safe and reliable environment, which is why we handle your data with the utmost care and responsibility.",
+      "p2": "We only collect necessary data to provide our services and improve your experience, such as: Name (or username) and the parent's email address to create and manage the account.",
+      "p3": "Subscription payment information is processed securely through trusted global payment gateways (like Google Play or the Apple App Store). We do not store any of your credit card details on our servers.",
+      "p4": "Usage Data: Anonymous data about how users interact with the app (such as the most-watched content) to improve our services and develop new, relevant content."
+    },
+    "selling": {
+      "title": "🧾 Terms of Service & Sales Agreement",
+      "p1": "Welcome to <strong>Little Moon World</strong>. By using our application and purchasing our services, you agree to the following terms and conditions:",
+      "p2": "The service is 100% digital and provides unlimited access to a library of entertainment and educational content. It is activated immediately after payment and does not include any physical products.",
+      "p3": "All subscriptions are automatically renewed. You can cancel auto-renewal at any time through your app store account settings at least 24 hours before the renewal date.",
+      "p4": "We grant you a personal, non-exclusive, non-transferable license to use 'Little Moon World' content for personal, non-commercial purposes only."
+    },
+    "refund": {
+      "title": "🔁 Return & Refund Policy",
+      "p1": "Since 'Little Moon World' offers intangible digital products that are accessed immediately upon purchase, all sales are considered final and non-refundable.",
+      "p2": "The only exception is in the case of a proven technical fault on our part that prevents you from using the service. In this case, please contact our technical support team at [Your Support Email Here] within 72 hours of purchase.",
+      "p3": "Non-use of the subscription or forgetting to cancel auto-renewal are not considered valid reasons for a refund."
+    }
+  }
+}

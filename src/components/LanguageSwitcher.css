@@ -1,0 +1,52 @@
+.switch-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .switch {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .track {
+    width: 80px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    transition: background-color 0.4s;
+  }
+  
+  .knob {
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    transition: left 0.4s;
+  }
+  
+  /* تغيير لون الخلفية عند تحديد التبديل */
+  .switch input:checked + .track {
+    background-color: #2196F3;
+  }
+  
+  /* تحريك الدائرة إلى الجهة الأخرى عند التحديد */
+  .switch input:checked + .track .knob {
+    left: calc(100% - 38px); /* 80px - (36px + 2px) = 42px */
+  }
+  
