@@ -14,6 +14,7 @@ export const Home: FC = () => {
       <Application/>
       <AboutSection />
       <OurHeros />
+ 
     </Box>
   );
 };

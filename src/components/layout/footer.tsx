@@ -4,28 +4,43 @@ import '../../assets/css/style.css';
 
 import { FC } from "react";
 import { motion } from "framer-motion";
-import { useTranslation } from 'react-i18next'; // استيراد الدالة useTranslation
+import { useTranslation } from 'react-i18next';
 
+// 1. تعريف مسارات الصور (تأكد من وجود صور اليوتيوب والتيك توك في ملفاتك)
 const BannerMoonImage = "/images/home/banner-image.svg";
-const LogoFacebook = "/images/footer/facebook.svg";
-const LogoInstagram = "/images/footer/instagram.svg";
-const LogoWhatsapp = "/images/footer/whatsapp.svg";
+const LogoFacebook = "/images/footer/communication.png";
+const LogoInstagram = "/images/footer/instagram.png";
+// const LogoWhatsapp = "/images/footer/whatsapp.png";
+const LogoYoutube = "/images/footer/youtube.png"; // تأكد من إضافة هذه الصورة
+const LogoTiktok = "/images/footer/tik-tok.png";   // تأكد من إضافة هذه الصورة
+
+// 2. تحديث مصفوفة الروابط
 const SocialMedia: { img: string; link: string }[] = [
-  { img: LogoInstagram, link: "www.facebook.com" },
-  { img: LogoFacebook, link: "www.facebook.com" },
-  { img: LogoWhatsapp, link: "www.facebook.com" },
+  { 
+    img: LogoYoutube, 
+    link: "https://youtube.com/@littlemoonworld9593?si=Uo7gGB8YHR1WOpxj" 
+  },
+  { 
+    img: LogoInstagram, 
+    // تنبيه: الرابط أدناه هو رابط يوتيوب كما ورد في طلبك، يرجى استبداله برابط الإنستغرام الصحيح عند توفره
+    link: "https://youtube.com/@littlemoonworld9593?si=Uo7gGB8YHR1WOpxj" 
+  },
+  { 
+    img: LogoFacebook, 
+    link: "https://www.facebook.com/share/1CiG6s11cU/?mibextid=wwXIfr" 
+  },
+  { 
+    img: LogoTiktok, 
+    link: "https://www.tiktok.com/@.little.moon72?_r=1&_t=ZS-9305THhE3fw" 
+  },
 ];
 
 const Footer: FC = () => {
-  const { t } = useTranslation(); // استخدام الدالة t لترجمة النصوص
-  const openInNewTab = (url: string): void => {
-    window.open(url, "_blank");
-  };
-
+  const { t } = useTranslation();
+  
   return (
     <motion.footer
       id="newsletter"
-      
       className="wow fadeInUp"
       data-wow-delay="0.1s"
       initial={{ opacity: 0 }}
@@ -35,6 +50,8 @@ const Footer: FC = () => {
     >
       <div className="container">
         <div className="row">
+          
+          {/* العمود الأول: معلومات التواصل */}
           <motion.div
             className="col-lg-4"
             initial={{ opacity: 0 }}
@@ -45,11 +62,12 @@ const Footer: FC = () => {
             <div className="footer-widget" dir="ltr">
               <h4>{t('footer.contact')}</h4>
               <p>{t('footer.location')}</p>
-              <p><a href="tel:+966123456789"> +905312706322</a></p>
+              <p><a href="tel:+905312706322"> +905312706322</a></p>
               <p><a href="mailto:info@littlemoonworld.com">info@littlemoonworld.com</a></p>
             </div>
           </motion.div>
     
+          {/* العمود الثاني: روابط سريعة */}
           <motion.div
             className="col-lg-4"
             initial={{ opacity: 0 }}
@@ -67,6 +85,7 @@ const Footer: FC = () => {
             </div>
           </motion.div>
     
+          {/* العمود الثالث: عن الشركة + السوشيال ميديا */}
           <motion.div
             className="col-lg-4"
             initial={{ opacity: 0 }}
@@ -89,6 +108,17 @@ const Footer: FC = () => {
                 />
               </div>
               <p>{t('footer.company_description')}</p>
+
+              {/* 3. إضافة قسم عرض أيقونات التواصل الاجتماعي هنا */}
+              <div style={{ display: 'flex', gap: '15px', marginTop: '15px' }}>
+                {SocialMedia.map((item, index) => (
+                  <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                    {/* تم تحديد حجم للصورة لضمان عدم تشوه التصميم */}
+                    <img src={item.img} alt="social-icon" style={{ width: '30px', height: '30px' }} />
+                  </a>
+                ))}
+              </div>
+
             </div>
           </motion.div>
         </div>
