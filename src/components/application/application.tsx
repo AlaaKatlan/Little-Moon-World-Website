@@ -11,7 +11,7 @@ import appScreen from "../../assets/img/app-screen.png";
 import aboutImg from "../../assets/img/about-img.jpg";
 import aboutIcon1 from "../../assets/img/about-icon-1.png";
 import aboutIcon2 from "../../assets/img/about-icon-2.png";
-import whiteLogo from "../../assets/img/white-logo.png";
+// import whiteLogo from "../../assets/img/white-logo.png";
 import { useTranslation } from "react-i18next";
 
 const Application: React.FC = () => {
